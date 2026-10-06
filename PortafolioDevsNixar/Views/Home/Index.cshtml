@@ -1,0 +1,14 @@
+﻿@model HomeIndexViewModel
+@{
+    ViewData["Title"] = "Página principal";
+}
+
+@*Para ponerel códio dentro de una vista parcial
+    el nombre de guio bajo es por convencion para archivos
+    compartidos de Razor
+*@
+<partial name="_Presentacion" />
+
+<partial name="_Habilidades" />
+
+<partial name="_SessionProyectos" model="Model.Proyectos" />
