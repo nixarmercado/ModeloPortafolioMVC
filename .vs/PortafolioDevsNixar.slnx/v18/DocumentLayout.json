@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|c:\\users\\hp 450 g8\\desktop\\portafoliodevsnixar\\portafoliodevsnixar\\views\\home\\_habilidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|solutionrelative:portafoliodevsnixar\\views\\home\\_habilidades.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|c:\\users\\hp 450 g8\\desktop\\portafoliodevsnixar\\portafoliodevsnixar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|solutionrelative:portafoliodevsnixar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|c:\\users\\hp 450 g8\\desktop\\portafoliodevsnixar\\portafoliodevsnixar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|solutionrelative:portafoliodevsnixar\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|c:\\users\\hp 450 g8\\desktop\\portafoliodevsnixar\\portafoliodevsnixar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|solutionrelative:portafoliodevsnixar\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|c:\\users\\hp 450 g8\\desktop\\portafoliodevsnixar\\portafoliodevsnixar\\servicios\\repositorioproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|solutionrelative:portafoliodevsnixar\\servicios\\repositorioproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|c:\\users\\hp 450 g8\\desktop\\portafoliodevsnixar\\portafoliodevsnixar\\models\\proyectodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|solutionrelative:portafoliodevsnixar\\models\\proyectodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|c:\\users\\hp 450 g8\\desktop\\portafoliodevsnixar\\portafoliodevsnixar\\views\\home\\_presentacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E782CAFC-B055-C7F7-2B5E-DB2BFD170D8A}|PortafolioDevsNixar\\PortafolioDevsNixar.csproj|solutionrelative:portafoliodevsnixar\\views\\home\\_presentacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,77 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Habilidades.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Views\\Home\\_Habilidades.cshtml",
-              "RelativeDocumentMoniker": "PortafolioDevsNixar\\Views\\Home\\_Habilidades.cshtml",
-              "ToolTip": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Views\\Home\\_Habilidades.cshtml",
-              "RelativeToolTip": "PortafolioDevsNixar\\Views\\Home\\_Habilidades.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Title": "_Presentacion.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Views\\Home\\_Presentacion.cshtml",
+              "RelativeDocumentMoniker": "PortafolioDevsNixar\\Views\\Home\\_Presentacion.cshtml",
+              "ToolTip": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Views\\Home\\_Presentacion.cshtml",
+              "RelativeToolTip": "PortafolioDevsNixar\\Views\\Home\\_Presentacion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-06T21:22:06.075Z",
+              "WhenOpened": "2026-10-07T08:03:02.49Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Program.cs",
-              "RelativeDocumentMoniker": "PortafolioDevsNixar\\Program.cs",
-              "ToolTip": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Program.cs",
-              "RelativeToolTip": "PortafolioDevsNixar\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T17:44:09.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProyectoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Models\\ProyectoDTO.cs",
-              "RelativeDocumentMoniker": "PortafolioDevsNixar\\Models\\ProyectoDTO.cs",
-              "ToolTip": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Models\\ProyectoDTO.cs",
-              "RelativeToolTip": "PortafolioDevsNixar\\Models\\ProyectoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T17:37:35.197Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RepositorioProyectos.cs",
-              "DocumentMoniker": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Servicios\\RepositorioProyectos.cs",
-              "RelativeDocumentMoniker": "PortafolioDevsNixar\\Servicios\\RepositorioProyectos.cs",
-              "ToolTip": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Servicios\\RepositorioProyectos.cs",
-              "RelativeToolTip": "PortafolioDevsNixar\\Servicios\\RepositorioProyectos.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAvwDQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T17:26:56.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PortafolioDevsNixar\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PortafolioDevsNixar\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T17:25:53.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PortafolioDevsNixar\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP 450 G8\\Desktop\\PortafolioDevsNixar\\PortafolioDevsNixar\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PortafolioDevsNixar\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-06T17:16:25.944Z"
             }
           ]
         }
