@@ -1,44 +1,71 @@
-# ASP.NET Core (.NET Framework)
-# Build and test ASP.NET Core projects targeting the full .NET Framework.
-# Add steps that publish symbols, save build artifacts, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
+# ASP.NET Core (.NET 10) - Build and Deploy Pipeline
 trigger:
-- main
+  - main
 
 pool:
   vmImage: 'windows-2022'
 
 variables:
-  solution: '**/*.sln'
   proyecto: '**/*.csproj'
-  buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  dotnetVersion: '10.0.x'  # Configurado para el SDK de .NET 10
+  dotnetVersion: '10.0.x'
 
-steps:
+stages:
+- stage: Build
+  displayName: 'Compilación y Publicación'
+  jobs:
+  - job: BuildJob
+    displayName: 'Compilar App'
+    steps:
 
-- task: UseDotNet@2
-  displayName: 'Instalar .NET SDK $(dotnetVersion'
-  inputs:
-    packageType: 'sdk'
-    version: '$(dotnetVersion)'
+    # 1. Instalar el SDK de .NET 10
+    - task: UseDotNet@2
+      displayName: 'Instalar .NET SDK $(dotnetVersion)'
+      inputs:
+        packageType: 'sdk'
+        version: '$(dotnetVersion)'
 
-- task: NuGetToolInstaller@1
+    # 2. Restaurar y Publicar la aplicación
+    - task: DotNetCoreCLI@2
+      displayName: 'Empaquetar la aplicación'
+      inputs:
+        command: 'publish'
+        publishWebProjects: true
+        projects: '$(proyecto)'
+        arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+        zipAfterPublish: true
 
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
+    # 3. Guardar el artefacto zip para el despliegue
+    - task: PublishBuildArtifacts@1
+      displayName: 'Guardar artefacto'
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'drop'
+        publishLocation: 'Container'
 
-- task: DotNetCoreCLI@2
-  displayName: 'Construyendo los artefactos...'
-  inputs:
-    command: 'publish'
-    publishWebProjects: false
-    projects: $(proyecto)
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory) --runtime win-x86 --self-contained'
-    zipAfterPublish: false
-    modifyOutputPath: false
+- stage: Deploy
+  displayName: 'Despliegue a Azure App Service'
+  dependsOn: Build
+  condition: succeeded()
+  jobs:
+  - job: DeployJob
+    displayName: 'Desplegar en Azure'
+    steps:
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publicando los artefactos'
+    # 1. Descargar el archivo zip del stage de Build
+    - task: DownloadBuildArtifacts@0
+      displayName: 'Descargar artefacto'
+      inputs:
+        buildType: 'current'
+        downloadType: 'single'
+        artifactName: 'drop'
+        downloadPath: '$(System.ArtifactsDirectory)'
+
+    # 2. Publicar directamente en tu Azure App Service
+    - task: AzureWebApp@1
+      displayName: 'Subir a Azure App Service'
+      inputs:
+        azureSubscription: 'Azure-Portafolio' # Sustituye con el nombre de tu Service Connection
+        appType: 'webApp'
+        appName: 'PortafolioDevsNixar20261007010712'        # Sustituye con el nombre exacto de tu App Service en Azure
+        package: '$(System.ArtifactsDirectory)/drop/*.zip'
