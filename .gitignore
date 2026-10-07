@@ -1,0 +1,17 @@
+## Carpetas de compilación
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+## Configuraciones de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Paquetes NuGet
+packages/
+*.nuget.props
+*.nuget.targets
