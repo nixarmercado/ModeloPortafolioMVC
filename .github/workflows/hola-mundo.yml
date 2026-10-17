@@ -1,0 +1,34 @@
+name: Hola mundo
+
+on:
+  workflow_dispatch: #ejecución manual
+  push:
+    branches:
+      - main
+    paths:
+      - 'PortafolioDevsNixar/**'
+      - '.github/workflows/hola-mundo.yml'
+  pull_request:
+    branches:
+      - main
+
+
+jobs: #Un conjunto de tareas
+  saludar:
+    runs-on: ubuntu-latest #version economica
+    steps:
+      - name: Muestra mensaje hola mundo
+      - run: echo "hola mundo, Nixar"
+
+      - name: Checkout #Es una tarea predefinada
+      #lo que hace es tomar el codigo del repositorio y descargarlo aquí para poder utilizarlo
+        uses: actions/checkout@v6.1.0
+        #con esta instruccion lo descargo y lo pongo en uso para su ejecucion
+
+      - name: Listar los archivos del repositorio
+        run: | #Se crea una secuencia de comandos
+          echo "El repositorio ${{ github.repository}}" contiene los siguientes archivos:"
+          tree
+                  
+        
+    
