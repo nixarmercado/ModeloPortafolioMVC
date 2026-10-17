@@ -15,10 +15,10 @@ on:
 
 jobs: #Un conjunto de tareas
   saludar:
-    runs-on: ubuntu-latest #version economica
+    runs-on: ubuntu-latest 
     steps:
       - name: Muestra mensaje hola mundo
-      - run: echo "hola mundo, Nixar"
+        run: echo "hola mundo, Nixar"
 
       - name: Checkout #Es una tarea predefinada
       #lo que hace es tomar el codigo del repositorio y descargarlo aquí para poder utilizarlo
